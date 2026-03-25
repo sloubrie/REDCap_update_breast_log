@@ -14,7 +14,7 @@ curl  -H "Content-Type: application/x-www-form-urlencoded" \
 
 # Fetch log file from Magickbox computer
 echo "Fetching the breast subjects log file"
-ssh processing@137.110.129.67 -t "ssh processing@10.198.35.49 -t \"scp /data/hjy004/Breast_subjects.log $USER@137.110.172.113:$PWD\""
+ssh processing@137.110.129.67 -t "ssh processing@10.198.35.49 -t \"scp /data/logs/WIL/Breast_subjects.log $USER@137.110.172.113:$PWD\""
 
 # Create updated report for upload to REDCap
 echo "Creating updated CSV file for upload to REDCap"
